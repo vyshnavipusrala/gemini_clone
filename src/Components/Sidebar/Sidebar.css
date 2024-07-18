@@ -1,0 +1,120 @@
+.sidebar{
+    min-height:100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 25px 15px;
+
+
+}
+.sidebar .img .menu{
+     width: 25px;
+}
+.sidebar .menu{
+    width:40px;
+    height: 25px;
+    display:block;
+    cursor: pointer;
+}
+.sidebar .newchat{
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap:10px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+.sidebar .recent{
+    display:flex;
+    flex-direction: column;
+
+}
+.sidebar .recent-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.sidebar .recent-entry{
+    display: flex;
+    align-items: start;
+    gap:10px;
+    padding: 10px;
+    padding-right: 5px;
+    border-radius: 50px;
+    color:#282828;
+    cursor: pointer;
+
+}
+.sidebar .recent-entry:hover{
+    background-color: #e2e6eb;
+}
+
+.sidebar .bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .bottom-item{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: 100vh;
+        padding: 20px 10px;
+    }
+
+    .sidebar .menu {
+        width: 35px;
+        height: 20px;
+    }
+
+    .sidebar .newchat {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .sidebar .recent-entry {
+        padding: 8px;
+        padding-right: 3px;
+    }
+
+    .sidebar .bottom-item {
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        padding: 15px 5px;
+    }
+
+    .sidebar .menu {
+        width: 30px;
+        height: 20px;
+    }
+
+    .sidebar .newchat {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+
+    .sidebar .recent-entry {
+        padding: 5px;
+        padding-right: 2px;
+        font-size: 12px;
+    }
+
+    .sidebar .bottom-item {
+        padding-right: 2px;
+        font-size: 12px;
+    }
+}
