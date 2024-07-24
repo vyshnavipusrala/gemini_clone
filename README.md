@@ -1,8 +1,16 @@
-# React + Vite
+# GEMINI CLONE
+Developed "Project Gemini Clone" using React.js, replicating key features of the Gemini messenger platform.
+## Key Features:
+Responsive Design: Optimized for desktop and mobile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prompt Handling: Users can input and submit prompts to interact with the generative AI
 
-Currently, two official plugins are available:
+Real-Time Messaging: Instant response display with typing animation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Chat History: Access and manage previous prompts and responses.
+
+## Technologies used:
+React,React Context API,CSS,React Icons,WebSocket,Google Generative AI API
+
+
+
